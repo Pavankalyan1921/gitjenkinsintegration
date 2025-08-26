@@ -7,7 +7,7 @@ pipeline {
    stages {
        stage('Clone') {
            steps {
-               git ''
+               git 'https://github.com/Pavankalyan1921/gitjenkinsintegration.git'
            }
        }
        stage('Build') {
